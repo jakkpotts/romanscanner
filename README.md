@@ -1,6 +1,6 @@
 # RomanScanner
-This script automates cloning hotel room keys in use by a **ROMAN** hotel casino brand.
-**Make sure to edit the script everywhere `pm3` is referenced with the correct path to your pm3 executeable.
+This script automates cloning hotel room keys in use by a **ROMAN** hotel casino brand.  
+**Make sure to edit the script everywhere `pm3` is referenced with the correct path to your pm3 executeable.**
 
 It is designed to control a proxmark3 running on a raspberry pi02w with a headless kali linux build.
 
