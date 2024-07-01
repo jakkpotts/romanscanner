@@ -1,7 +1,8 @@
 # RomanScanner
 This script automates cloning hotel room keys in use by a **ROMAN** hotel casino brand.
+**Make sure to edit the script everywhere `pm3` is referenced with the correct path to your pm3 executeable.
 
-This shell script is designed to control a proxmark3 running on a raspberry pi02w with a headless kali linux build.
+It is designed to control a proxmark3 running on a raspberry pi02w with a headless kali linux build.
 
 The intended usecase of this script is to have ssh running on the pi with
 a connected proxmark3 and power supply. This rig is housed inside of something inconspicuous.
