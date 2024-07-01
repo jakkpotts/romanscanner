@@ -15,8 +15,8 @@ You can then either interrupt the script to revert back to scanning
 mode, or you can press the side button on the proxmark3 to do the same.
 
 # Example flow
-[device] -> ssh into pi -> run romanscanner -> scanning mode enabled
-[flow] -> get within range to scan a room key -> you now have obtained the key -> pm3 is simulating the key
+**(device)** -> ssh into pi -> run romanscanner -> scanning mode enabled
+**(flow)** -> get within range to scan a room key -> you now have obtained the key -> pm3 is simulating the key
 
 Essentially, this just automates the scan/copy/crack/clone process
 untill a successful scan and clone is obtained.
