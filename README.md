@@ -1,4 +1,6 @@
 # RomanScanner
+This script automates cloning hotel room keys in use by a *ROMAN* hotel casino brand.\
+
 This shell script is designed to control a proxmark3 running on a raspberry pi02w with a headless kali linux build.
 
 The intended usecase of this script is to have ssh running on the pi with
