@@ -24,8 +24,14 @@ while true; do
             eload=$(pm3 -c "hf mf eload -f $filename")
             echo "Dump loaded."
             echo "Starting room key card simulator..."
-            pm3 -c "hf mf sim --1k --u $hex_string -v -i"
-            echo "Exiting simulator and returning to scan mode..."
+            pm3 -c "hf mf sim --1k --u $hex_string -v"
+            echo "Simulator running. Press Enter to save simulator memory to file and return to scan mode..."
+            read -p ""  # Wait for Enter key press
+            esave=$(pm3 -c "hf mf esave --1k -f $hex_string.eml")
+            echo "Emulation file saved -- $hex_string.eml.bin"
+            echo "Clearing simulator memory..."
+            eclear=$(pm3 -c "hf mf eclr") 
+            echo "Simulator memory cleared."
             break  # Exit the inner loop to restart scanning
         fi
 
